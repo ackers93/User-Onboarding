@@ -28,7 +28,7 @@ const UserForm = ({ values, errors, touched, status }) => {
           <Field required type="checkbox" name="terms" checked={values.terms} />
                     <span className="checkmark" />
                 </label>
-                <Field as="button" type="button" name="submit">Submit!</Field>
+                <Field as="button" type="submit" name="submit">Submit!</Field>
             </Form>
             {users.map(u => (
                 <ul key={u.id}>

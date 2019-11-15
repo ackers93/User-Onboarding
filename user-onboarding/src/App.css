@@ -1,5 +1,20 @@
+body {
+  background-color: lightgray;
+}
+
 .App {
   text-align: center;
+  background-color: green;
+}
+
+.user-form {
+
+}
+
+.user-form .text{
+  color: white;
+    display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
